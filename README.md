@@ -18,8 +18,8 @@ The code is compatible with Python 3.6 and the following packages:
 1. Clone the repo
 2. Create virtual environments and install the necessary python packages listed above
 3. Set up raw datasets
-    1. SSF: Load raw data from the google drive folder (https://drive.google.com/drive/folders/1qeDOWDULW-F8HnLYPEzWe8tCdtF4xQYT?usp=sharing) and save it to the folder named "data/SSF"
-    2. Copy data from {} and save it to the folder name "data/CESM"
+    1. **SSF:** Load raw data from the google drive folder (https://drive.google.com/drive/folders/1qeDOWDULW-F8HnLYPEzWe8tCdtF4xQYT?usp=sharing) and save it to the folder named "data/SSF"
+    2. **CESM:** Copy data from {} and save it to the folder name "data/CESM"
 4. Revise configutation files to adapt to the required settings
     1. cfg_target.py
     2. cfg_SSF.py
