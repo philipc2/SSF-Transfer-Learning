@@ -1,6 +1,6 @@
-## Sub-Seasonal Climate Forecasting via Machine Learning: Challenges, Analysis, and Advances
+## Sub-Seasonal Climate Forecasting via Machine Learning and Transfer Learning
 
-Code for data extraction, preprocessing, and SSF model training and evaluation used in He et al. [Sub-Seasonal Climate Forecasting via Machine Learning: Challenges, Analysis, and Advances](https://arxiv.org/abs/2006.07972).  
+Code is adapted from He et al. [Sub-Seasonal Climate Forecasting via Machine Learning: Challenges, Analysis, and Advances](https://arxiv.org/abs/2006.07972). Modified to support the CESM2 Forecast and Reforecast dataset and Transfer Learning
 
 ## Requirements
 The code is compatible with Python 3.6 and the following packages:
@@ -17,8 +17,13 @@ The code is compatible with Python 3.6 and the following packages:
 ## Getting started
 1. Clone the repo
 2. Create virtual environments and install the necessary python packages listed above
-3. Load raw data from the google drive folder (https://drive.google.com/drive/folders/1qeDOWDULW-F8HnLYPEzWe8tCdtF4xQYT?usp=sharing) and save it to the folder named "data"
-4. Revise configure file (cfg_target.py) to adapt to the required settings
+3. Set up raw datasets
+    1. SSF: Load raw data from the google drive folder (https://drive.google.com/drive/folders/1qeDOWDULW-F8HnLYPEzWe8tCdtF4xQYT?usp=sharing) and save it to the folder named "data/SSF"
+    2. Copy data from {} and save it to the folder name "data/CESM"
+4. Revise configutation files to adapt to the required settings
+    1. cfg_target.py
+    2. cfg_SSF.py
+    3. cfg_CESM.py
 5. Data loading and preprocessing:
     1. Execute load_data.py to load the subset of data needed in generating forecasts
     2. Execute run_preprocess.py to preprocess covariates and target variable separately
