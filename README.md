@@ -1,6 +1,6 @@
 ## Sub-Seasonal Climate Forecasting via Machine Learning and Transfer Learning
 
-Code is adapted from He et al. [Sub-Seasonal Climate Forecasting via Machine Learning: Challenges, Analysis, and Advances](https://arxiv.org/abs/2006.07972). Modified to support the CESM2 Forecast and Reforecast dataset and Transfer Learning
+Code is adapted from He et al. [Sub-Seasonal Climate Forecasting via Machine Learning: Challenges, Analysis, and Advances](https://arxiv.org/abs/2006.07972). Modified to support the CESM2 Forecast and Reforecast dataset and Transfer Learning. Work is part of my 2022-2023 Senior Thesis.
 
 ## Requirements
 The code is compatible with Python 3.6 and the following packages:
